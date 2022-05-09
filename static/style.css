@@ -258,18 +258,33 @@ footer .social-media{
 		display: block;
 	}
 
-	#top{
-		display: none;
-		width: 400px;
-		height: 450px;
+	.contenedor{
+		display:none;
+	}
+
+	.show{
+		display: flex;
+		flex-direction: column;
+		width: 200px;
+		height: 350px;
 		position: absolute;
 		background-color: aliceblue;
+		box-shadow: 2px 4px 4px rgba(0,0,0,0.3);
+		border-radius: 4px;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
+		padding-top: 2rem;
 	}
 
-	.navbar .contenedor {
+	.box-menu{
+		background-color: transparent;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.navbar{
 		width: 100%;
 		flex-wrap: wrap;
 		border-radius: 4px;
