@@ -258,8 +258,8 @@ footer .social-media{
 		display: block;
 	}
 
-	.contenedor{
-		display:none;
+	.hide{
+		display: none;
 	}
 
 	.show{
